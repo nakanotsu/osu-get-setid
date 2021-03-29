@@ -1,4 +1,5 @@
 # osu-get-setid
+# You will need -pip install pyperclip- in order to use it.
 
 This python script will allow you to get all the beatmap id's in your osu folder.
 Simply specify the path to it and the program will copy all found id's to the clipboard in the form of '4561,4,698,..'
@@ -12,3 +13,4 @@ pattern = specifies regex to find numbers until first space; '1 Kenji Ninuma - D
 processed = removes all spaces of the form ' ' in the regex find. the regex find all function has a 'pattern to match', 'string of beatmap directories',
 'flag to indicate that they are separated with a \n line break character'. if not provided, the regex will fail to match more than 1.  
 clipboard = creates a new string of the filtered results in the form of '1,1110,556,87..' and finally it copies it to the clipboard.  
+
