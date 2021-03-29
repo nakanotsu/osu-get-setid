@@ -13,3 +13,6 @@ processed = removes all spaces of the form ' ' in the regex find. the regex find
 'flag to indicate that they are separated with a \n line break character'. if not provided, the regex will fail to match more than 1.  
 clipboard = creates a new string of the filtered results in the form of '1,1110,556,87..' and finally it copies it to the clipboard.  
 
+# Issues
+
+There may be duplicate beatmaps in your folder, this will reflect when copying the id's and updating it in osusearch, which will have less id's than copied
