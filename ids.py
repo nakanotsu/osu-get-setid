@@ -9,4 +9,5 @@ pattern = '^[0-9]*\s'
 processed = [n.strip(' ') for n in re.findall(pattern, beatmaps, re.MULTILINE)]
 clipboard = ",".join(processed)
 pyperclip.copy(clipboard)
+#print
 print('copied')
