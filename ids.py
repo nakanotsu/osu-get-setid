@@ -1,6 +1,4 @@
 #Pohmx development 2021
-#Free of use! Python 3.9x
-#You will need -pip install pyperclip- in order to use it.
 
 import os, re, pyperclip
 
