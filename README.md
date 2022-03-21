@@ -1,3 +1,7 @@
+# checker.py
+
+Search for duplicates, return curated list.
+
 # osu-get-setid
 
 This python script will allow you to get all the beatmap id's in your osu folder.
